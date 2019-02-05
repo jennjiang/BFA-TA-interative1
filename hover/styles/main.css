@@ -1,0 +1,48 @@
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	 margin-left: auto;
+     margin-right: auto;
+}
+
+ a{
+ 	text-decoration: none;
+ }
+
+
+ .click:hover{
+   /* border-bottom: 2px dotted red;
+	display: inline-block;
+	line-height: 1;
+	color:red;*/
+	border-bottom: 2px solid green;
+    /*text-decoration: underline;*/
+	font-style: italic;
+	background-color: black;
+	color: #000000;
+}
+
+.click{ 
+  display: block;
+  position: relative;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1;
+  padding:0;
+  margin-left:60px;
+  width: 300px;
+}
+
+.click h3{
+  text-align: center;
+}
+
+.otherpage{
+    color: rgb(0,255,0);
+	font-size: 90px;
+	margin: 90px;
+}
+
+/*.click:link{
+    text-decoration: none;
+}*/

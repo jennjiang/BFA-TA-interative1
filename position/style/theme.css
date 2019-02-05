@@ -1,0 +1,37 @@
+#grid{
+	display: grid;
+	grid-template-columns: 200px 200px 20px;
+	grid-template-rows: 200px 300px;
+	grid-gap: 10px;
+}
+
+/*.special{
+    background:red;
+}
+*/
+.item{
+	border: 1px solid green;
+	padding:50px;
+
+}
+
+.clear-left {
+	clear: left;
+}
+/*a {
+  color: #222;
+}
+
+a:hover {
+  color: white ;
+  border-bottom: none;
+}*/
+
+
+/*.clear-left{
+	clear:left;
+}
+*/
+
+
+
