@@ -1,11 +1,10 @@
 
 /* reset styles */
 
-* {
+html, body {
   margin:  0px;
-  padding: 20px;
+  /* padding: 20px; */
 }
-
 /* begin styles */
 .name{
 /*  font-family: Lucida Sans Unicode,Lucida Grande,sans-serif;*/
@@ -16,32 +15,34 @@
 .desc{
 /*  font-family: Lucida Sans Unicode,Lucida Grande,sans-serif;*/
   font-stretch: condensed;
-  width: 630px;
+  padding: 20px;
+  width: 100%;
   height: 700px;
-  padding: 4px;  
+  /* padding: 4px;   */
   font-size: 80px;
   box-sizing: border-box;
-  color: #FF3000;
+  color: rgba(42, 31, 192, 0.9);
 }
+
 
 #about{
   background-color: white;
-  width: 650px;
-  height: 720px;
+  width: 75vw;
+  height: 100%;
   overflow-y: scroll;
   border: 9px solid blue;
-  
+  box-sizing: border-box;
 }
 
 #work{
-  position: absolute;
+  position: relative;
   top: 120px;
   right: 0px;
-  left: 670px;
+  /* left: 670px; */
   background-color: white;
-  width: 500px;
+  width: 50%;
   height: 600px;
-  overflow-y: scroll;
+  overflow-y: auto;
   box-sizing: border-box;
   border: 9px solid blue;
 }
@@ -53,4 +54,10 @@
 body {
   color: black;
 /*  background-color: white;*/
+}
+
+@media all and (max-width: 699px) {
+  .desc {
+    color: blue;
+  }
 }
